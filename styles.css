@@ -6,6 +6,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin:0;
+
 }
 
 .logo{
@@ -51,4 +53,57 @@ button{
     border-radius: 8px;
     width: 100px;
     height: 30px;
+}
+.card-heading{
+    font-size: 32px;
+    font-weight: 800;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    border-radius: 8px;
+}
+.card-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-group{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 20px;
+}
+.quote-sec{
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.author{
+    align-self: flex-end;
+    font-weight: 800;
+}
+.alert-sec{
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 30px;
+}
+.alert-sec2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.card-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
